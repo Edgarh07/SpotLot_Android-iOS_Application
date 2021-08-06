@@ -121,6 +121,10 @@
     <BundleResource Include="Resources\xamarin_logo%402x.png" />
     <BundleResource Include="Resources\xamarin_logo%403x.png" />
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <BundleResource Include="Resources\MainLogo.png">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </BundleResource>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -148,7 +152,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\CSE455V2\CSE455V2.csproj">
-      <Project>{054BD79D-E7E0-4849-9000-F352FA15F8A5}</Project>
+      <Project>{895B0E21-7D37-46A5-AC9F-915726438468}</Project>
       <Name>CSE455V2</Name>
     </ProjectReference>
   </ItemGroup>
